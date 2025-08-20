@@ -5,7 +5,8 @@ const Input = ({colorValue, setColorValue}) => {
     <form onSubmit={(e) => {
       e.preventDefault();}
     }>
-        <label
+        <label>Add CLor Name:</label>
+        <input
         autoFocus
         type="text"
         placeholder="Enter a color"

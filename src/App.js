@@ -1,7 +1,7 @@
-//import logo from './logo.svg';
-import './App.css';
-import Input  from './Input';
+//import logo from './logo.svg
 import Square from './Square';
+import Input  from './Input';
+
 import React, { useState } from 'react';
 function App() {
   const [colorValue, setColorValue] = useState('');

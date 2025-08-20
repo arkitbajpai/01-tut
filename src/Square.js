@@ -1,16 +1,16 @@
-import React from 'react'
+  import React from 'react'
 
 const Square = ({colorValue}) => {
   return (
-    <div>
+  
 <section
-   className="Square"
+   className="square"
     style={{backgroundColor:colorValue}}>
-      <p>{colorValue? colorValue:"Empty value"}</p>
+      <p>{colorValue ? colorValue:"Empty value"}</p>
     
    </section>
       
-    </div>
+
   )
 }
 Square.defaultProps = {
